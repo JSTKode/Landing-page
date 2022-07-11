@@ -1,0 +1,94 @@
+* {
+  font-family: Raleway;
+  color: #000000;
+}
+
+body,
+html {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+
+}
+li {
+  list-style-type: none;
+}
+.h-40 {
+  height: 9.375rem
+}
+
+.h-28 {
+ height:  7.0831rem;
+}
+.text-3xl {
+font-size: 1.875rem; /* 30px */
+}
+
+.text-4xl {
+  font-size: 2.25rem; /* 36px */
+}
+
+.text-5xl {
+  font-size: 3rem; /* 48px */
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 3fr 1fr;
+  height: 5rem;
+}
+
+.bg-cyan {
+  background-color: #5ec3da;
+}
+
+.bg-purple {
+  background-color:#d000fe ;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pl-16 {
+  padding-left: 4rem;
+}
+
+.pr-16 {
+  padding-right: 4rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+a:hover {
+  background-color:#d000fe;
+  border: 8px dotted;
+}
+input:focus {
+  background-color:#d000fe 
+}
