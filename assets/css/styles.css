@@ -6,7 +6,9 @@
   background-color: black;
 }
 
-
+.bg-cyan {
+  background-color: #5ec3da;
+}
 
 /*==========================================
 =           TEXT-and-COLOR          =
@@ -31,6 +33,11 @@
 .font-raleway {
   font-family: raleway;
 }
+
+.text-cyan {
+  color: #5ec3da;
+}
+
 /*==========================================
 =            FLEX           =
 ==========================================*/
