@@ -1,79 +1,95 @@
-html,
-body {
-  font-family: Raleway;
-  margin: 0;
-}
 
 /*==========================================
-=            FOOTER            =
+=            Color           =
 ==========================================*/
-.footer {
-  margin-top: 100px;
-  display: flex;
-}
-
 .bgblack {
   background-color: black;
 }
-.margin-left {
-  margin-left: 100px;
-}
-.taileblock {
-  flex: 1;
-}
-a {
+
+
+
+/*==========================================
+=           TEXT-and-COLOR          =
+==========================================*/
+
+.no-underline{
   text-decoration: none;
+}
+
+.list-none {
   list-style: none;
 }
+
 .text-white {
   color: white;
 }
-.footer h2 {
-  color: white;
+
+.capitalize {
   text-transform: capitalize;
-  margin-bottom: 35px;
-  font-weight: 500;
-  position: relative;
 }
-.footer h2::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  background-color: #d000fe;
-  height: 2px;
-  box-sizing: border-box;
-  width: 50px;
+
+.font-raleway {
+  font-family: raleway;
 }
+/*==========================================
+=            FLEX           =
+==========================================*/
+.display {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+/*==========================================
+=            MARGIN          =
+==========================================*/
+.ml-100 {
+  margin-left: 100px;
+}
+
+.mx-100{
+  margin-right: 100px;
+}
+
+.mt-100{
+  margin-top: 100px;
+}
+
+.m-0{
+  margin: 0;
+}
+/*==========================================
+=            FOOTER            =
+==========================================*/
+
 .social-links a {
   padding-left: 10px;
 }
-.margin-logo {
-  margin-right: 100px;
-}
+
+
 /*==========================================
 =            Test login           =
 ==========================================*/
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
-
 *,
 *:before,
 *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
-
 h2 {
-  color:black;
-  margin-left:12px;
+  color: black;
+  margin-left: 12px;
 }
 
 form {
-  position:relative;
+  position: relative;
   margin: 50px auto;
   width: 380px;
   height: auto;
@@ -81,47 +97,47 @@ form {
 
 input {
   padding: 16px;
-  border-radius:7px;
-  border:0px;
-  background: rgba(255,255,255,.2);
+  border-radius: 7px;
+  border: 0px;
+  background: rgba(255, 255, 255, 0.2);
   display: block;
   margin: 15px;
-  width: 300px;  
-  color:black;
-  font-size:18px;
+  width: 300px;
+  color: black;
+  font-size: 18px;
   height: 54px;
 }
 
 input:focus {
-  outline-color: rgba(0,0,0,0);
+  outline-color: rgba(0, 0, 0, 0);
   background: black;
   color: #e74c3c;
 }
 
 button {
-  float:right;
+  float: right;
   height: 121px;
   width: 50px;
   border: 0px;
   background: #e74c3c;
-  border-radius:7px;
+  border-radius: 7px;
   padding: 10px;
-  color:black;
-  font-size:22px;
+  color: black;
+  font-size: 22px;
 }
 
 .inputUserIcon {
-  position:absolute;
-  top:68px;
+  position: absolute;
+  top: 68px;
   right: 80px;
-  color:black;
+  color: black;
 }
 
 .inputPassIcon {
-  position:absolute;
-  top:136px;
+  position: absolute;
+  top: 136px;
   right: 80px;
-  color:black;
+  color: black;
 }
 
 input::-webkit-input-placeholder {
