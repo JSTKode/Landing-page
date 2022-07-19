@@ -1,6 +1,5 @@
 * {
   font-family: Raleway;
-  color: #000000;
 }
 
 body,
@@ -10,16 +9,22 @@ html {
 
 a {
   text-decoration: none;
+  color:#5ec3da
 }
+
 li {
   list-style-type: none;
 }
+
+.h-56 {
+  height: 14.25rem;
+}
 .h-40 {
-  height: 9.375rem;
+  height: 5rem;
 }
 
-.h-28 {
-  height: 7.0831rem;
+.text-cyan {
+color: #5ec3da;
 }
 
 .text-2xl {
@@ -49,12 +54,8 @@ li {
   height: 5rem;
 }
 
-.bg-cyan {
-  background-color: #5ec3da;
-}
-
-.bg-purple {
-  background-color: #d000fe;
+.bg-black {
+  background-color: black;
 }
 
 .flex {
@@ -71,6 +72,11 @@ li {
 
 .items-center {
   align-items: center;
+}
+
+
+.items-end {
+  align-items: flex-end;
 }
 
 .pt-4 {
@@ -93,10 +99,22 @@ li {
   padding-bottom: 1rem;
 }
 
+.order {
+order : 3
+
+}
+
 a:hover {
-  background-color: #d000fe;
-  border: 8px dotted;
+  border: 4px dotted #5ec3da;
+  box-shadow: 20px 20px 20px ;
 }
+
 input:focus {
-  background-color: #d000fe;
+  background-color: #5ec3da;
 }
+
+h1:hover {
+  text-decoration: underline #5ec3da;
+
+}
+
