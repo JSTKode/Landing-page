@@ -7,28 +7,24 @@ html {
   margin: 0;
 }
 
-a {
-  text-decoration: underline #d000fe;
-  color: white
+.bg-purple {
+  background-color: #d000fe;
 }
 
-li {
-  list-style-type: none;
+.bg-black {
+  background-color: black;
 }
 
-.h-40 {
-  height: 8.313rem;
-}
-.h-35 {
-  height: 5rem;
+.bg-header {
+  background-image: url(../img/image-cc94elsr.png);
 }
 
 .text-white {
-color: white;
+  color: white;
 }
 
-.text-underline {
-  text-decoration: underline #d000fe;
+.text-1xl {
+  font-size: 1.4rem;
 }
 
 .text-2xl {
@@ -47,23 +43,41 @@ color: white;
   font-size: 3rem; /* 48px */
 }
 
-.m-0 {
-  margin: 0;
+.h-20 {
+  height: 4rem;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 3fr 1.50fr;
-  height: 5rem;
+.h-40 {
+  height: 8.313rem;
+}
+.h-80 {
+  height: 15rem;
 }
 
-.bg-black {
-  background-color: black;
+.h-160 {
+  height: 30rem;
 }
 
-.bg-header {
-  background-image: url(../img/image-cc94elsr.png);
+.list-none {
+  list-style-type: none;
 }
+
+.text-underline {
+  text-decoration: underline #d000fe;
+}
+
+.border-solid {
+  border: #d000fe 5px solid;
+}
+
+.border-l {
+  border-left: solid 2px #d000fe;
+}
+
+.border-r {
+  border-right: solid 2px #d000fe;
+}
+
 
 .flex {
   display: flex;
@@ -81,9 +95,48 @@ color: white;
   align-items: center;
 }
 
-
 .items-end {
   align-items: flex-end;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1.5fr;
+  height: 5rem;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;}
+
+.grid-start-end1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.grid-start-end2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.order-4 {
+  order: 4;
+}
+
+.order-5 {
+  order: 5;
+}
+
+.order-6 {
+  order: 6;
+}
+.order-7 {
+  order: 7;
+}
+
+.m-0 {
+  margin: 0;
 }
 
 .pt-2 {
@@ -106,10 +159,18 @@ color: white;
   padding-bottom: 1rem;
 }
 
-input {
-  background-color: #d000fe;
-  color:white;
-  font-size: 1.40rem;
+.px-4 {
+  padding-left: 1rem; /* 16px */
+  padding-right: 1rem; /* 16px */
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
 }
 
 
