@@ -10,10 +10,20 @@
       href="https://fonts.googleapis.com/css?family=Raleway"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="./assets/css/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- link mobile -->
+    <link rel="stylesheet" href="./assets/css/queries.css" />
+    <!-- mobile link -->
+
+    <script src="./assets/js/main.js"></script>
   </head>
-  <body>
-    <header class="h-40 bg-header bg-nav border-solid">
-      <section class="grid h-20 grid-cols-3">
+  <body class="m-0 bg-amber-100">
+    <header class="bg-img bg-nav border-solid">
+      <section class="grid grid-cols-3">
         <div class="flex justify-center items-center">
           <img
             width="130px"
@@ -21,22 +31,44 @@
             src="./assets/img/LogoS.png"
             alt="logo"
           />
+
+          <!-- icon  -->
+
+          <span class="cursor-pointer">
+            <i class="text-purple fa fa-cog fa-spin fa-3x fa-fw"></i>
+            <i class="text-purple pr-4 fa fa-sun-o fa-3x" aria-hidden="true"></i
+            ><i class="text-purple fa fa-moon-o fa-3x" aria-hidden="true"></i
+          ></span>
         </div>
 
-        <div class="flex items-center justify-center">
+        <!-- done icon -->
+
+        <div class="flex items-center justify-center justify-arround">
           <nav class="text-4xl">
-            <ul class="flex">
-              <li class="list-none">
-                <a class="text-underline text-white" href="#">Accueil</a>
+            <ul class="flex list-none">
+              <li>
+                <span>
+                  <i
+                    class="text-purple pr-4 fa fa-hand-o-right"
+                    aria-hidden="true"
+                  ></i>
+                </span>
+                <a class="text-white no-underline" href="#">Accueil</a>
               </li>
-              <li class="pl-16 list-none">
-                <a class="text-underline text-white" href="#">Actualités</a>
+              <li class="pl-16">
+                <a class="text-white no-underline" href="#">Actualités</a>
               </li>
-              <li class="pl-16 list-none">
-                <a class="text-underline text-white" href="#">Boutique</a>
+              <li class="pl-16">
+                <a class="text-white no-underline" href="#">Boutique</a>
               </li>
-              <li class="pl-16 list-none">
-                <a class="text-underline text-white" href="#">Forum</a>
+              <li class="pl-16">
+                <a class="text-white no-underline" href="#">Forum</a>
+                <span
+                  ><i
+                    class="text-purple pl-4 fa fa-hand-o-left"
+                    aria-hidden="true"
+                  ></i
+                ></span>
               </li>
             </ul>
           </nav>
@@ -44,14 +76,10 @@
 
         <div class="text-3xl pr-4 text-white">
           <label class="flex justify-end pt-2" for="Identifiant"
-            >Identifiant :&emsp;<input
-              class="text-white bg-purple text-1xl"
-              type="text"
+            >Identifiant :&emsp;<input class="text-1xl" type="text"
           /></label>
           <label class="flex justify-end pb-2" for="Password"
-            >Mot de passe :&emsp;<input
-              class="text-white bg-purple text-1xl"
-              type="text"
+            >Mot de passe :&emsp;<input class="text-1xl" type="text"
           /></label>
           <div class="flex justify-center">
             <button class="text-2xl">Mot de passe oubliée ?</button>
@@ -62,7 +90,6 @@
       </section>
     </header>
     <svg
-      class="pt-2"
       id="wave"
       style="transform: rotate(180deg); transition: 0.3s"
       viewBox="0 0 1440 100"
@@ -78,18 +105,18 @@
       <path
         style="transform: translate(0, 0px); opacity: 1"
         fill="url(#sw-gradient-0)"
-        d="M0,80L60,0L120,30L180,70L240,20L300,20L360,70L420,10L480,90L540,30L600,50L660,50L720,40L780,40L840,10L900,60L960,10L1020,0L1080,70L1140,10L1200,20L1260,10L1320,70L1380,10L1440,40L1440,100L1380,100L1320,100L1260,100L1200,100L1140,100L1080,100L1020,100L960,100L900,100L840,100L780,100L720,100L660,100L600,100L540,100L480,100L420,100L360,100L300,100L240,100L180,100L120,100L60,100L0,100Z"
+        d="M0,20L60,90L120,90L180,30L240,90L300,20L360,50L420,70L480,20L540,80L600,50L660,0L720,20L780,0L840,90L900,80L960,30L1020,50L1080,60L1140,60L1200,10L1260,40L1320,80L1380,60L1440,60L1440,100L1380,100L1320,100L1260,100L1200,100L1140,100L1080,100L1020,100L960,100L900,100L840,100L780,100L720,100L660,100L600,100L540,100L480,100L420,100L360,100L300,100L240,100L180,100L120,100L60,100L0,100Z"
       ></path>
     </svg>
 
-    <main class="grid grid-cols-4 grid-rows-2 pb-4 h-80">
+    <main class="grid grid-cols-4 grid-rows-2 pb-4 h-160">
       <h1
-        class="text-4xl col-start-1 col-end-3 flex justify-center px-4 m-0 pb-4 border-r text-underline"
+        class="text-4xl col-span-2 flex justify-center items-center px-4 m-0 pb-4 border-r"
       >
         Titre section 1
       </h1>
       <p
-        class="h-160 text-2xl pl-4 order-4 flex justify-center items-center m-0"
+        class="text-2xl h-40 pl-4 order-4 flex justify-center items-center m-0 sm-text-red"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et nam est
         omnis inventore quae quisquam natus quis! Harum ea deserunt nihil iste,
@@ -108,12 +135,12 @@
       </div>
 
       <h1
-        class="text-4xl col-start-3 col-end-5 flex justify-center px-4 m-0 border-l text-underline pb-4"
+        class="text-4xl col-span-2 flex justify-center items-center px-4 m-0 border-l pb-4"
       >
         Titre section 2
       </h1>
       <p
-        class="order-6 h-160 text-2xl pl-4 flex justify-center items-center border-l m-0"
+        class="order-6 text-2xl pl-4 flex justify-center items-center border-l m-0"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
         earum laudantium, ullam asperiores unde reprehenderit. Voluptates,
@@ -131,5 +158,24 @@
         />
       </div>
     </main>
+
+    <svg
+      style="transform: rotate(0deg); transition: 0.3s"
+      viewBox="0 0 1440 100"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+          <stop stop-color="rgba(208, 0, 254, 1)" offset="0%"></stop>
+          <stop stop-color="rgba(208, 0, 254, 1)" offset="100%"></stop>
+        </linearGradient>
+      </defs>
+      <path
+        style="transform: translate(0, 0px); opacity: 1"
+        fill="url(#sw-gradient-0)"
+        d="M0,20L60,90L120,90L180,30L240,90L300,20L360,50L420,70L480,20L540,80L600,50L660,0L720,20L780,0L840,90L900,80L960,30L1020,50L1080,60L1140,60L1200,10L1260,40L1320,80L1380,60L1440,60L1440,100L1380,100L1320,100L1260,100L1200,100L1140,100L1080,100L1020,100L960,100L900,100L840,100L780,100L720,100L660,100L600,100L540,100L480,100L420,100L360,100L300,100L240,100L180,100L120,100L60,100L0,100Z"
+      ></path>
+    </svg>
   </body>
 </html>

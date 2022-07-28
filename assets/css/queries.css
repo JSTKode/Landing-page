@@ -1,0 +1,12 @@
+@media screen and (max-width: 1024px) {
+  .sm-flex {
+    display: flex;
+  }
+  .sm-flex-col {
+    flex-direction: column;
+  }
+  .sm-text-red {
+    color: red;
+  }
+
+}
