@@ -1,6 +1,11 @@
-* {
-  font-family: Raleway;
+
+/*==========================================
+=            Color           =
+==========================================*/
+.bg-black {
+  background-color: black;
 }
+
 
 .bg-amber-100 {
   background-color: rgb(254 243 199);
@@ -12,11 +17,28 @@
 
 .bg-img {
   background-image: url(../img/image-cc94elsr.png);
+
+.bg-cyan {
+  background-color: #5ec3da;
+}
+
+/*==========================================
+=           TEXT-and-COLOR          =
+==========================================*/
+
+.no-underline{
+  text-decoration: none;
+}
+
+.list-none {
+  list-style: none;
+
 }
 
 .text-white {
   color: white;
 }
+
 
 .text-amber-100 {
   color: rgb(254 243 199);
@@ -28,23 +50,38 @@
 
 .text-1xl {
   font-size: 1.4rem;
+
+.capitalize {
+  text-transform: capitalize;
 }
 
-.text-2xl {
-  font-size: 1.5rem; /* 24px */
+.font-raleway {
+  font-family: raleway;
+
 }
 
-.text-3xl {
-  font-size: 1.875rem; /* 30px */
+.text-cyan {
+  color: #5ec3da;
 }
 
-.text-4xl {
-  font-size: 2.25rem; /* 36px */
+/*==========================================
+=            FLEX           =
+==========================================*/
+.flex {
+  display: flex;
 }
 
-.text-5xl {
-  font-size: 3rem; /* 48px */
+.flex-1 {
+  flex: 1;
 }
+
+/*==========================================
+=            MARGIN          =
+==========================================*/
+.ml-100 {
+  margin-left: 100px;
+}
+
 
 .h-16 {
   height: 4rem;
@@ -92,15 +129,32 @@
 
 .border-r {
   border-right: solid 2px #d000fe;
+
+.mx-100{
+  margin-right: 100px;
 }
 
-.flex {
-  display: flex;
+.mt-100{
+  margin-top: 100px;
 }
+
+.m-0{
+  margin: 0;
+
+}
+/*==========================================
+=            FOOTER            =
+==========================================*/
+
+.social-links a {
+  padding-left: 10px;
+}
+
 
 .flex-col {
   flex-direction: column;
 }
+
 
 .justify-center {
   justify-content: center;
