@@ -1,11 +1,9 @@
-
 /*==========================================
 =            Color           =
 ==========================================*/
 .bg-black {
   background-color: black;
 }
-
 
 .bg-amber-100 {
   background-color: rgb(254 243 199);
@@ -17,6 +15,7 @@
 
 .bg-img {
   background-image: url(../img/image-cc94elsr.png);
+}
 
 .bg-cyan {
   background-color: #5ec3da;
@@ -26,19 +25,17 @@
 =           TEXT-and-COLOR          =
 ==========================================*/
 
-.no-underline{
+.no-underline {
   text-decoration: none;
 }
 
 .list-none {
   list-style: none;
-
 }
 
 .text-white {
   color: white;
 }
-
 
 .text-amber-100 {
   color: rgb(254 243 199);
@@ -50,6 +47,21 @@
 
 .text-1xl {
   font-size: 1.4rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.text-3xl {
+  font-size: 1.7rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 
 .capitalize {
   text-transform: capitalize;
@@ -57,7 +69,6 @@
 
 .font-raleway {
   font-family: raleway;
-
 }
 
 .text-cyan {
@@ -81,7 +92,6 @@
 .ml-100 {
   margin-left: 100px;
 }
-
 
 .h-16 {
   height: 4rem;
@@ -129,18 +139,18 @@
 
 .border-r {
   border-right: solid 2px #d000fe;
+}
 
-.mx-100{
+.mx-100 {
   margin-right: 100px;
 }
 
-.mt-100{
+.mt-100 {
   margin-top: 100px;
 }
 
-.m-0{
+.m-0 {
   margin: 0;
-
 }
 /*==========================================
 =            FOOTER            =
@@ -150,11 +160,9 @@
   padding-left: 10px;
 }
 
-
 .flex-col {
   flex-direction: column;
 }
-
 
 .justify-center {
   justify-content: center;
@@ -281,7 +289,46 @@
   width: 100vw;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.relative {
+  position: relative;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.table {
+  display: table;
+}
+
+.table-row { 
+  display: table-row;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.h-50 {
+  height: 50px;
+}
