@@ -1,11 +1,71 @@
+<<<<<<< HEAD
 
 /*==========================================
 =            Color           =
 ==========================================*/
+=======
+* {
+  font-family: Raleway;
+}
+
+body,
+html {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color:#5ec3da
+}
+
+li {
+  list-style-type: none;
+}
+
+.h-56 {
+  height: 14.25rem;
+}
+.h-40 {
+  height: 5rem;
+}
+
+.text-cyan {
+color: #5ec3da;
+}
+
+.text-2xl {
+  font-size: 1.5rem; /* 24px */
+}
+
+.text-3xl {
+  font-size: 1.875rem; /* 30px */
+}
+
+.text-4xl {
+  font-size: 2.25rem; /* 36px */
+}
+
+.text-5xl {
+  font-size: 3rem; /* 48px */
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 3fr 1fr;
+  height: 5rem;
+}
+
+>>>>>>> axel
 .bg-black {
   background-color: black;
 }
 
+<<<<<<< HEAD
 .bg-cyan {
   background-color: #5ec3da;
 }
@@ -41,10 +101,13 @@
 /*==========================================
 =            FLEX           =
 ==========================================*/
+=======
+>>>>>>> axel
 .flex {
   display: flex;
 }
 
+<<<<<<< HEAD
 .flex-1 {
   flex: 1;
 }
@@ -76,4 +139,61 @@
 }
 
 
+=======
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.items-center {
+  align-items: center;
+}
+
+
+.items-end {
+  align-items: flex-end;
+}
+
+.pt-4 {
+  padding-top: 2rem;
+}
+
+.pl-16 {
+  padding-left: 4rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.order {
+order : 3
+
+}
+
+a:hover {
+  border: 4px dotted #5ec3da;
+  box-shadow: 20px 20px 20px ;
+}
+
+input:focus {
+  background-color: #5ec3da;
+}
+
+h1:hover {
+  text-decoration: underline #5ec3da;
+
+}
+>>>>>>> axel
 
