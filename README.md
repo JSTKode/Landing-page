@@ -16,19 +16,26 @@ les codes présent sur les branches dev-name.
 être le commanditaire du projet et… encaissez les critiques !
 
 Voici notre projet macketage à partir d'un wirefrime,
-nous apprenons à utiliser HTML et CSS avec les bonnes pratiques:
+nous apprenons à utiliser HTML et CSS avec les bonnes pratiques :
 
 lien du repository github : https://github.com/JSTKode/Landing-page
 
 Collaborateur : Medhi & Axel
 
+* Travailler sur VSCODE
+* Créer des dossiers et fichiers en utilisant les conditions de nommage (/assets/css/styles.css)
 * Reproduire le modèle "wirefrime"
+* Utilisés des classes réutilisable
 * Utilisation de flex et grid pour placer les élements
 * S'inspirer de la charte graphique
-* Nommage des classes via "tailwindcss"
-* Classe réutilisable
+* Nommage des classes via "tailwindcss" 
+* Push sont projet sur Github (exemple de commande) : git init / git remote origin add https://github.com/JSTKode/Landing-page / git add . /
+git commit -m "first commit" / git branch -M  main / git push origin main
+
+
 
 Outils utilisés : 
+* https://github.com/ (Push/clone des projets)
 * http://localhost/ (Héberger son site en local)
 * https://tailwindcss.com/docs/installation (Apprendre les bonne convention de nommage)
 * https://fontawesome.com/v4/get-started/ (Librairie d'icone)
